@@ -1978,8 +1978,11 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".hs-form-iframe-0": {
+            ".hs-form-iframe": {
               "min-height": "2050px"
+            },
+            ".submitted-message": {
+              "paddint-top": "1900px"
             }
           },
           "_name": "content4",
