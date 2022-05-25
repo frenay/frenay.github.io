@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Medispring FR",
-    "currentPage": "page22.html",
+    "currentPage": "devenir-utilisateur.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -1980,12 +1980,6 @@
             },
             ".hs-form-iframe": {
               "min-height": "2050px"
-            },
-            ".hbspt-form .submitted-message": {
-              "padding-top": "1950px"
-            },
-            ".hbspt-form p": {
-              "padding-top": "1950px"
             }
           },
           "_name": "content4",
@@ -31775,7 +31769,7 @@
             ".hs-form-iframe": {
               "min-height": "2050px"
             },
-            ".submitted-message": {
+            ".hs-form-222996eb-fb80-45d9-b56e-4abb3d7648c7_c1488985-a081-4ebf-9807-a492d6dc6689.submitted-message": {
               "padding-top": "1950px"
             }
           },
