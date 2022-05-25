@@ -31775,10 +31775,7 @@
             ".hs-form-iframe": {
               "min-height": "2050px"
             },
-            ".hbspt-form .submitted-message": {
-              "padding-top": "1950px"
-            },
-            ".hbspt-form p": {
+            ".submitted-message": {
               "padding-top": "1950px"
             }
           },
