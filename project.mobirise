@@ -31781,7 +31781,7 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js-eu1.hsforms.net/forms/shell.js\"></script>",
-            "<script>\n\n    \n  hbspt.forms.create({\n    region: \"eu1\",\n    portalId: \"25876512\",\n    formId: \"222996eb-fb80-45d9-b56e-4abb3d7648c7\"\n});\n\nvar $head = $(\"#hs-form-iframe-0\").contents().find(\"head\");\nvar css = '<style type=\"text/css\">' +\n          '.submitted-message {padding-top: 1950px;}' +\n          '</style>';\n$head.append($css);\n    \nwindow.onload = function() {\n   let myiFrame = document.getElementById(\"hs-form-iframe-0\");\n   let doc = myiFrame.contentDocument;\n   doc.body.innerHTML = doc.body.innerHTML + '<style>.submitted-message {padding-top: 1950px;}</style>';\n}\n    \n</script>"
+            "<script>\n\n    \n  hbspt.forms.create({\n    region: \"eu1\",\n    portalId: \"25876512\",\n    formId: \"222996eb-fb80-45d9-b56e-4abb3d7648c7\"\n});\n\nvar $head = $(\"#hs-form-iframe-0\").contents().find(\"head\");\nvar css = '<style type=\"text/css\">' +\n          '.submitted-message {padding-top: 1950px;}' +\n          '</style>';\n$head.append(css);\n\n</script>"
           ],
           "_protectedParams": [],
           "_global": false,

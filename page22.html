@@ -362,14 +362,8 @@ var $head = $("#hs-form-iframe-0").contents().find("head");
 var css = '<style type="text/css">' +
           '.submitted-message {padding-top: 1950px;}' +
           '</style>';
-$head.append($css);
-    
-window.onload = function() {
-   let myiFrame = document.getElementById("hs-form-iframe-0");
-   let doc = myiFrame.contentDocument;
-   doc.body.innerHTML = doc.body.innerHTML + '<style>.submitted-message {padding-top: 1950px;}</style>';
-}
-    
+$head.append(css);
+
 </script>
             </div>
         </div>
