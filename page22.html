@@ -350,20 +350,21 @@
                 </h3>
 <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
 <script>
-    var $head = $("#hs-form-iframe-0").contents().find("head");
 
-$head.append($("<link/>", {
-    rel: "stylesheet",
-    href: url,
-    type: "text/css"
-}));
     
   hbspt.forms.create({
     region: "eu1",
     portalId: "25876512",
     formId: "222996eb-fb80-45d9-b56e-4abb3d7648c7"
 });
-    
+
+var $head = $("#hs-form-iframe-0").contents().find("head");
+
+$head.append($("<link/>", {
+    rel: "stylesheet",
+    href: url,
+    type: "text/css"
+}));
 </script>
             </div>
         </div>
