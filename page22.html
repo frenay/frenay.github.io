@@ -359,12 +359,10 @@
 });
 
 var $head = $("#hs-form-iframe-0").contents().find("head");
-
-$head.append($("<link/>", {
-    rel: "stylesheet",
-    href: url,
-    type: "text/css"
-}));
+var css = '<style type="text/css">' +
+          '.submitted-message {padding-top: 1950px;}' +
+          '</style>';
+$head.append($("css"));
 </script>
             </div>
         </div>

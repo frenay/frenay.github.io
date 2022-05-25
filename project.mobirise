@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Medispring FR",
-    "currentPage": "devenir-utilisateur.html",
+    "currentPage": "page22.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -31781,7 +31781,7 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js-eu1.hsforms.net/forms/shell.js\"></script>",
-            "<script>\n\n    \n  hbspt.forms.create({\n    region: \"eu1\",\n    portalId: \"25876512\",\n    formId: \"222996eb-fb80-45d9-b56e-4abb3d7648c7\"\n});\n\nvar $head = $(\"#hs-form-iframe-0\").contents().find(\"head\");\n\n$head.append($(\"<link/>\", {\n    rel: \"stylesheet\",\n    href: url,\n    type: \"text/css\"\n}));\n</script>"
+            "<script>\n\n    \n  hbspt.forms.create({\n    region: \"eu1\",\n    portalId: \"25876512\",\n    formId: \"222996eb-fb80-45d9-b56e-4abb3d7648c7\"\n});\n\nvar $head = $(\"#hs-form-iframe-0\").contents().find(\"head\");\nvar css = '<style type=\"text/css\">' +\n          '.submitted-message {padding-top: 1950px;}' +\n          '</style>';\n$head.append($(\"css\"));\n</script>"
           ],
           "_protectedParams": [],
           "_global": false,
