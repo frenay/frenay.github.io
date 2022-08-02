@@ -27539,6 +27539,97 @@ a {
 .cid-t6m66n0Crt .mbr-section-title {
   color: #4a2545;
 }
+.cid-tdmt5Fe8qE {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr-1920x813.jpg");
+}
+.cid-tdmt5Fe8qE .mbr-section-title {
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+.cid-tdmt5Fe8qE .mbr-section-subtitle {
+  color: #444444;
+  letter-spacing: 0.03em;
+}
+.cid-tdmt5Fe8qE .form-control {
+  padding: 8px 15px 8px 15px;
+  border-color: #cccccc;
+  border-radius: 0px !important;
+  background-color: #ffffff;
+}
+.cid-tdmt5Fe8qE .container-table {
+  margin: 0 auto;
+}
+.cid-tdmt5Fe8qE .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-tdmt5Fe8qE .dataTables_wrapper {
+  display: block;
+}
+.cid-tdmt5Fe8qE .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-tdmt5Fe8qE .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-tdmt5Fe8qE table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-tdmt5Fe8qE table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-tdmt5Fe8qE table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-tdmt5Fe8qE table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-tdmt5Fe8qE table.table {
+  background: #ffffff;
+}
+.cid-tdmt5Fe8qE .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-tdmt5Fe8qE .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-tdmt5Fe8qE .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-tdmt5Fe8qE .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+  text-align: left;
+}
+@media (max-width: 992px) {
+  .cid-tdmt5Fe8qE .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-tdmt5Fe8qE .dataTables_filter {
+    text-align: center;
+  }
+  .cid-tdmt5Fe8qE .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
 .cid-t6m66o6YY9 {
   padding-top: 60px;
   padding-bottom: 60px;
