@@ -525,10 +525,18 @@ $head.append($css);
     
     <div class="table-wrapper">
       <div class="container">
-        
+        <div class="row search">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <div class="dataTables_filter">
+              <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+              <input class="form-control input-sm" disabled="">
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container scroll">
-        <table class="table" cellspacing="0" data-empty="Aucun document trouvé">
+        <table class="table isSearch" cellspacing="0" data-empty="Aucun document trouvé">
           <thead>
             <tr class="table-heads">
               
@@ -626,7 +634,18 @@ $head.append($css);
         </table>
       </div>
       <div class="container">
-        
+        <div class="row info">
+          <div class="col-md-12">
+              <div class="dataTables_info mbr-fonts-style display-7">
+                <span class="infoBefore">Showing</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoAfter">entries</span>
+                <span class="infoFilteredBefore">(filtered from</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoFilteredAfter"> total entries)</span>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
