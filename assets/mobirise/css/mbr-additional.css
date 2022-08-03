@@ -27344,6 +27344,12 @@ a {
   font-size: 60px;
   color: #777;
 }
+#custom-html-k7 .calendly-spinner {
+  padding-top: 0;
+}
+#custom-html-k7 .calendly-spinner > div {
+  padding-top: 0;
+}
 .cid-t6m66lFIfT {
   padding-top: 3rem;
   padding-bottom: 5rem;
