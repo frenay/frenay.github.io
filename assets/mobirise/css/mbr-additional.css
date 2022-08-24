@@ -10557,6 +10557,56 @@ a {
   font-size: 2rem;
   width: 1.6rem;
 }
+.cid-tfq5gOlcgX {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #d4e7cf;
+  position: relative;
+  overflow: hidden;
+}
+.cid-tfq5gOlcgX .row {
+  justify-content: center;
+}
+.cid-tfq5gOlcgX .title-container {
+  max-width: 720px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cid-tfq5gOlcgX .mbr-section-title {
+  color: #161616;
+}
+.cid-tfq5gOlcgX .mbr-section-subtitle {
+  color: #161616;
+  margin-top: 16px;
+}
+.cid-tfq5gOlcgX .mbr-section-btn {
+  margin-top: 30px;
+}
+.cid-tfq5gOlcgX .circle-blur {
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+  display: block;
+  width: 440px;
+  height: 440px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 500px;
+  background-image: linear-gradient(132deg, #40b0bf 27%, #70d882 50%, #6ec7f2 79%);
+  opacity: .97;
+  -webkit-filter: blur(64px) blur(64px);
+  filter: blur(64px) blur(64px);
+}
 .cid-swtGNYJ3vC {
   padding-top: 4rem;
   padding-bottom: 4rem;
