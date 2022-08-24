@@ -24782,6 +24782,18 @@ a {
 .cid-t5kYfbdhi0 .mbr-section-btn {
   color: #4a2545;
 }
+#custom-html-ki {
+  /* Type valid CSS here */
+}
+#custom-html-ki div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-ki p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-t5kYfdjoWE {
   padding-top: 5rem;
   padding-bottom: 2rem;
