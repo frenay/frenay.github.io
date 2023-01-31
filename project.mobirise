@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Medispring FR",
-    "currentPage": "devenir-utilisateur.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -68,7 +68,7 @@
     "lazyLoad": true,
     "robotsText": "User-agent: *\nDisallow: \nDisallow: /cgi-bin/\nDisallow: /nl/\nSitemap: https://www.medispring.be/sitemap.xml\n\n\n",
     "cookiesAlert": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "site_lang": "fr"
   },
   "pages": {
