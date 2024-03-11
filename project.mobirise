@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Medispring FR",
-    "currentPage": "devenir-utilisateur.html",
+    "currentPage": "a-propos-de-medispring.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -4017,19 +4017,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dr.pierremasscheleyn-239x359.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dr.pierremasscheleyn-239x359-239x359.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Dr Pierre Masscheleyn,<br>Administrateur&nbsp;<br>",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/0e3a0289-4-400x600.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/0e3a0289-4-400x600-320x435.jpeg",
                 "alt": "",
@@ -4062,20 +4049,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "François Roucoux, MD,<br>Administrateur",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dr.didiersauvage-239x359-239x359.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dr.didiersauvage-239x359-239x359-239x359.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Didier Sauvage,<br>Administrateur",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -4101,7 +4075,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Fanny Dubois<br>Administrateur",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
