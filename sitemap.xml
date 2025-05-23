@@ -24,9 +24,6 @@
 		<loc>https://www.medispring.be/pour-medecins-generalistes.html</loc>
 	</url>
 	<url>
-		<loc>https://www.medispring.be/nos-formations.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medispring.be/conditions-generales.html</loc>
 	</url>
 	<url>
@@ -88,5 +85,8 @@
 	</url>
 	<url>
 		<loc>https://www.medispring.be/pour-medecins-specialistes.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/nos formations.html</loc>
 	</url>
 </urlset>
