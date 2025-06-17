@@ -78,9 +78,6 @@
 		<loc>https://www.medispring.be/kinés.html</loc>
 	</url>
 	<url>
-		<loc>https://www.medispring.be/page29.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medispring.be/page30.html</loc>
 	</url>
 	<url>
@@ -88,5 +85,8 @@
 	</url>
 	<url>
 		<loc>https://www.medispring.be/nos formations.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/cardiologues.html</loc>
 	</url>
 </urlset>
