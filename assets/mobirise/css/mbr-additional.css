@@ -34922,9 +34922,26 @@ a {
 .cid-uNNNq5TXJ6 .mbr-section-btn {
   color: #4a2545;
 }
+.cid-uOts10ixEJ {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #fffff5;
+}
+.cid-uOts10ixEJ .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uOts10ixEJ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .cid-uOsxWOF1Mv {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   background-color: #fffff5;
 }
 .cid-uOsxWOF1Mv .mbr-fallback-image.disabled {
