@@ -34708,36 +34708,6 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uLg0V47d2F {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-  background-color: #fffff5;
-}
-.cid-uLg0V47d2F .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-uLg0V47d2F .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-uLg0V47d2F .mbr-section-title {
-  color: #4a2545;
-}
-.cid-uLg0V47d2F .card-title,
-.cid-uLg0V47d2F .card-box {
-  color: #4a2545;
-  text-align: left;
-}
-.cid-uLg0V47d2F .mbr-text,
-.cid-uLg0V47d2F .link {
-  color: #4a2545;
-  text-align: left;
-}
 .cid-uOsEDb1YcO {
   padding-top: 3rem;
   padding-bottom: 0rem;
@@ -34835,6 +34805,8 @@ a {
 }
 .cid-uNNNq5TXJ6 .content-wrapper {
   padding-right: 112px;
+  padding-right: 0;
+  padding-left: 112px;
 }
 @media (max-width: 1440px) {
   .cid-uNNNq5TXJ6 .content-wrapper {
@@ -34852,6 +34824,21 @@ a {
     margin-bottom: 32px;
   }
 }
+@media (max-width: 1440px) {
+  .cid-uNNNq5TXJ6 .content-wrapper {
+    padding-left: 64px;
+  }
+}
+@media (max-width: 1200px) {
+  .cid-uNNNq5TXJ6 .content-wrapper {
+    padding-left: 32px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-uNNNq5TXJ6 .content-wrapper {
+    padding: 0;
+  }
+}
 .cid-uNNNq5TXJ6 .content-wrapper .mbr-section-title {
   margin-bottom: 0;
 }
@@ -34859,6 +34846,10 @@ a {
   padding-left: 112px;
   border-left: 3px dashed #4a2545;
   padding-left: 64px;
+  padding-left: 0;
+  padding-right: 112px;
+  border-left: none;
+  border-right: 3px dashed #4a2545;
 }
 @media (max-width: 1440px) {
   .cid-uNNNq5TXJ6 .video-wrapper {
@@ -34874,6 +34865,24 @@ a {
   .cid-uNNNq5TXJ6 .video-wrapper {
     padding-left: 0;
     border-left: none;
+    border-top: 3px dashed #4a2545;
+    padding-top: 22px;
+  }
+}
+@media (max-width: 1440px) {
+  .cid-uNNNq5TXJ6 .video-wrapper {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 1200px) {
+  .cid-uNNNq5TXJ6 .video-wrapper {
+    padding-right: 32px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-uNNNq5TXJ6 .video-wrapper {
+    padding-right: 0;
+    border-right: none;
     border-top: 3px dashed #4a2545;
     padding-top: 22px;
   }
