@@ -1435,9 +1435,6 @@ a {
 .cid-uOtifYbrjC img,
 .cid-uOtifYbrjC .item-img {
   width: 100%;
-  height: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 .cid-uOtifYbrjC .item:focus,
 .cid-uOtifYbrjC span:focus {
@@ -1804,13 +1801,19 @@ a {
 }
 .cid-svXRWtUqaJ {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-sw0kbd6XBr {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #fffff5;
 }
 @media (max-width: 992px) {
+  .cid-sw0kbd6XBr {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
   .cid-sw0kbd6XBr .box {
     height: 250px;
   }
