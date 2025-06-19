@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Medispring FR",
-    "currentPage": "index.html",
+    "currentPage": "pour-medecins-generalistes.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -1177,7 +1177,7 @@
             }
           },
           "_name": "features10",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"firmm4_features10 features10\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Amount\" name=\"cardsAmount\" min=\"1\" max=\"6\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Color\" value=\"#ffffff\" name=\"cardColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"/addons/firmm4/components/_images/background/background.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#d5ec7b\" condition=\"gradientBg && bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 title_block\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    WE ARE THE BEST \n                </h4>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Pourquoi choisir Medispring ?</b></h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\" mbr-list mbr-list-grow=\"cardsAmount\">\n            <div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-smile-face mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un outil intuitif, par et pour les soignants</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Intuitive et moderne, notre solution a été conçue en <b>co-création avec des soignants</b> afin de répondre aux besoins du terrain. <br>Que vous soyez en visite ou à votre cabinet, Medispring est <b>toujours disponible</b>, avec ou sans connexion internet.<br><br></p>    \n                </div>\n            </div>\n        <div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-hearth mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Une coopérative 100% belge, éthique et engagée</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Medispring, c’est une <b>coopérative belge</b><b>&nbsp;aux valeurs et à l'engagement sociétal forts&nbsp;</b>portée par des soignants.<b>&nbsp;</b>La garantie que votre logiciel restera indépendant et ne pourra jamais être racheté. <br>Notre coopérative c’est vous !<br></p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-like mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un logiciel labellisé</b><b><br></b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>Notre logiciel est homologué par l’e-Santé. </b>Il&nbsp;répond dès lors aux critères de qualité et de conformité les plus stricts, et permet l'accès des soignants éligibles aux primes télématiques.&nbsp;</p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-users mobi-mbri\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un logiciel </b><br><b>coopératif et multidisciplinaire</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Notre logiciel tout-en-un centré sur le patient favorise une prise en charge personnalisée et multidisciplinaire. Choisir Medispring, c'est bénéficier d'un outil taillé pour votre pratique <b>sans frais cachés</b> : la licence inclut tous les services et fonctionnalités, <b>pour tous</b>.</p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-key mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>La sécurité des données, notre priorité</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">À une époque où les données médicales constituent un enjeu majeur du secteur des soins de santé, vous restez maître de vos données.. <b>Elles sont cryptées de bout en bout et personne, à part vous, ne peut y accéder.</b>&nbsp;<br></p>    \n                </div>\n            </div></div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"firmm4_features10 features10\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Amount\" name=\"cardsAmount\" min=\"1\" max=\"6\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Color\" value=\"#ffffff\" name=\"cardColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"/addons/firmm4/components/_images/background/background.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#d5ec7b\" condition=\"gradientBg && bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 title_block\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    WE ARE THE BEST \n                </h4>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Medispring, c'est ...</b></h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\" mbr-list mbr-list-grow=\"cardsAmount\">\n            <div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-smile-face mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un outil intuitif, par et pour les soignants</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Intuitive et moderne, notre solution a été conçue en <b>co-création avec des soignants</b> afin de répondre aux besoins du terrain. <br>Que vous soyez en visite ou à votre cabinet, Medispring est <b>toujours disponible</b>, avec ou sans connexion internet.<br><br></p>    \n                </div>\n            </div>\n        <div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-hearth mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Une coopérative 100% belge, éthique et engagée</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Medispring, c’est une <b>coopérative belge</b><b>&nbsp;aux valeurs et à l'engagement sociétal forts&nbsp;</b>portée par des soignants.<b>&nbsp;</b>La garantie que votre logiciel restera indépendant et ne pourra jamais être racheté. <br>Notre coopérative c’est vous !<br></p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-like mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un logiciel labellisé</b><b><br></b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>Notre logiciel est homologué par l’e-Santé. </b>Il&nbsp;répond dès lors aux critères de qualité et de conformité les plus stricts, et permet l'accès des soignants éligibles aux primes télématiques.&nbsp;</p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-users mobi-mbri\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>Un logiciel </b><br><b>coopératif et multidisciplinaire</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Notre logiciel tout-en-un centré sur le patient favorise une prise en charge personnalisée et multidisciplinaire. Choisir Medispring, c'est bénéficier d'un outil taillé pour votre pratique <b>sans frais cachés</b> : la licence inclut tous les services et fonctionnalités, <b>pour tous</b>.</p>    \n                </div>\n            </div><div class=\"col-lg-4 col-md-6 item\">\n                <div class=\"card_wrap\">\n                    <div class=\"icon_block\" mbr-if=\"showIcon\">\n                        <div class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-key mobi-mbri\"></span>    \n                        </div>\n                    </div>\n                    <h3 class=\"card_title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card_title\"><b>La sécurité des données, notre priorité</b></h3>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">À une époque où les données médicales constituent un enjeu majeur du secteur des soins de santé, vous restez maître de vos données.. <b>Elles sont cryptées de bout en bout et personne, à part vous, ne peut y accéder.</b>&nbsp;<br></p>    \n                </div>\n            </div></div>\n    </div>\n</section>",
           "_cid": "svXfCYFUSK",
           "_anchor": "features10-n",
           "_PHPplaceholders": [],
@@ -1301,7 +1301,7 @@
           },
           "_name": "content11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"https://medispring.odoo.com/contactus\" data-app-placeholder=\"Type Text\">Contactez-Nous</a>\n                    <a class=\"btn btn-secondary\" href=\"nos-fonctionnalites.html\" data-app-placeholder=\"Type Text\">Découvrez nos fonctionnalités</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"https://medispring.odoo.com/contactus\" data-app-placeholder=\"Type Text\">Contactez-Nous</a>\n                    <a class=\"btn btn-secondary\" href=\"nos-fonctionnalites.html\" data-app-placeholder=\"Type Text\">Découvrez nos fonctionnalités</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content11-1e",
           "_isUserblock": true,
           "_cid": "sw06XdvZ2s",
@@ -1433,104 +1433,10 @@
             "background-color": "@bgColor"
           },
           "_name": "content11",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"devenir-utilisateur.html\" data-app-placeholder=\"Type Text\">Devenir Utilisateur</a>\n                    <a class=\"btn btn-secondary\" href=\"temoignages.html\" data-app-placeholder=\"Type Text\">Découvrir davantage de Témoignages</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"devenir-utilisateur.html\" data-app-placeholder=\"Type Text\">Devenir Utilisateur</a>\n                    <a class=\"btn btn-secondary\" href=\"temoignages.html\" data-app-placeholder=\"Type Text\">Découvrir davantage de Témoignages</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "svXRWtUqaJ",
           "_anchor": "content11-16",
           "_sourceTheme": "mobirise5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".counter-container": {
-              "ul": {
-                "margin": "0",
-                "list-style": "none",
-                "padding-left": "2.5rem",
-                "li": {
-                  "margin-bottom": "1rem",
-                  "position": "relative",
-                  "& when (@stylizedCounters)": {
-                    "list-style": "none",
-                    "position": "relative",
-                    "padding-left": "1rem",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-40px",
-                      "content": "\"\"",
-                      "display": "flex",
-                      "justify-content": "center",
-                      "align-items": "center",
-                      "color": "contrast(@iconColor)",
-                      "background-color": "@iconColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "margin-top": "5px",
-                      "& when (@countersType = \"circle\")": {
-                        "background": "none",
-                        "border": "1px solid @iconColor",
-                        "color": "@iconColor"
-                      },
-                      "& when (@countersType = \"square\")": {
-                        "border-radius": "0"
-                      },
-                      "& when (@mark)": {
-                        "content": "\"✓\""
-                      }
-                    }
-                  },
-                  "& when not (@stylizedCounters)": {
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-1.6rem",
-                      "content": "\"\\2022\"",
-                      "color": "@iconColor",
-                      "font-weight": "bold",
-                      "font-size": "2rem",
-                      "width": "1.6rem",
-                      "line-height": "1.2"
-                    }
-                  }
-                }
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#4a2545"
-            },
-            ".mbr-text": {
-              "color": "#4a2545"
-            }
-          },
-          "_name": "content8",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content8\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\" checked>\n        <select title=\"Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#1b550c\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Quelques-unes de nos fonctionnalités</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ul>\n                        <li><b>Liens avec l'e-Santé : </b>Envoi d'eAttest électronique, eFacts, eDMG, Sumehr, liens avec le RSW, Abrumet, Vitalkin, etc. Tout est inclus dans Medispring.</li><li><b>Agendas intégrés : </b>Medispring inclut dans son outil un agenda de base intégré, sans surcoût. Un système de rappel ou de prise de RDV en ligne est disponible en option.</li><li><b>Modules multidisciplinaires :</b> Nous proposons et développons des modules pour chaque spécialité (gynécologie, cardiologie, ORL, Dermatologie, Pédiatrie, ...) mais également pour le paramédical (kinés, infirmiers) et pour les maisons médicales (facturation au forfait, ...).\n</li><li><b>En constante innovation :</b> De nombreuses fonctionnalités innovantes sont présentes ou en développement chez Medispring : des modules de reporting, applications de lien médecin-patient, etc.</li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "svXW41tgTx",
-          "_anchor": "content8-1a",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content11",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"https://medispring.odoo.com/contactus\" data-app-placeholder=\"Type Text\">Contactez-Nous</a>\n                    <a class=\"btn btn-secondary\" href=\"nos-fonctionnalites.html\" data-app-placeholder=\"Type Text\">Découvrez toutes nos fonctionnalités</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-1m",
-          "_isUserblock": true,
-          "_cid": "sw0HkvDk1Y",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1710,7 +1616,7 @@
           },
           "_name": "content11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"devenir-utilisateur.html\" data-app-placeholder=\"Type Text\">Devenir Utilisateur</a>\n                    <a class=\"btn btn-secondary\" href=\"https://www.youtube.com/channel/UCDMPh0v-Kq76Ph0KVDk2hIA/videos\" data-app-placeholder=\"Type Text\" target=\"_blank\">Visualiser nos vidéos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content11\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-10\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://www.youtube.com/channel/UCDMPh0v-Kq76Ph0KVDk2hIA/videos\" data-app-placeholder=\"Type Text\" target=\"_blank\">Visualiser nos autres vidéos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content11-19",
           "_isUserblock": true,
           "_cid": "svXW0dsmd4",
@@ -3353,7 +3259,7 @@
     "a-propos-de-medispring.html": {
       "settings": {
         "title": "À Propos de Medispring",
-        "order": "18",
+        "order": "17",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - À Propos de Medispring"
       },
       "components": [
@@ -5413,7 +5319,7 @@
     "temoignages.html": {
       "settings": {
         "title": "Témoignages",
-        "order": "22",
+        "order": "21",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Témoignages d'Utilisateurs et de Soignants"
       },
       "components": [
@@ -6698,7 +6604,7 @@
     "contact.html": {
       "settings": {
         "title": "Contact",
-        "order": "25",
+        "order": "24",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Contact"
       },
       "components": [
@@ -7697,7 +7603,7 @@
     "support.html": {
       "settings": {
         "title": "Support",
-        "order": "23",
+        "order": "22",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Support"
       },
       "components": [
@@ -8866,7 +8772,7 @@
     "documents-officiels.html": {
       "settings": {
         "title": "Documents Officiels",
-        "order": "20",
+        "order": "19",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Documents Officiels"
       },
       "components": [
@@ -10370,7 +10276,7 @@
     "conditions-generales.html": {
       "settings": {
         "title": "Conditions Générales",
-        "order": "29",
+        "order": "28",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Conditions Générales"
       },
       "components": [
@@ -12757,7 +12663,7 @@
     "agenda.html": {
       "settings": {
         "title": "Agenda",
-        "order": "17",
+        "order": "16",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Agenda"
       },
       "components": [
@@ -13870,7 +13776,7 @@
     "pmg-rlm.html": {
       "settings": {
         "title": "PMG & RLM",
-        "order": "16",
+        "order": "15",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - PMG & RLM"
       },
       "components": [
@@ -15765,7 +15671,7 @@
     "paramedical.html": {
       "settings": {
         "title": "Paramédical",
-        "order": "14",
+        "order": "13",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Paramédical"
       },
       "components": [
@@ -17182,7 +17088,7 @@
     "maison-medicale.html": {
       "settings": {
         "title": "Maison Médicale",
-        "order": "15",
+        "order": "14",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Maison Médicale"
       },
       "components": [
@@ -19073,7 +18979,7 @@
     "politique-de-vie-privée.html": {
       "settings": {
         "title": "Politique de Vie Privée",
-        "order": "31",
+        "order": "30",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Politique de Vie Privée"
       },
       "components": [
@@ -20129,7 +20035,7 @@
     "fin-de-topaz.html": {
       "settings": {
         "title": "Fin de Topaz",
-        "order": "33",
+        "order": "32",
         "meta_descr": "Topaz n'est plus maintenu, mais Medispring est peut-être la solution qu'il vous fait."
       },
       "components": [
@@ -21012,7 +20918,7 @@
     "unpublished-ressources.html": {
       "settings": {
         "title": "unpublished-ressources",
-        "order": "35"
+        "order": "34"
       },
       "components": [
         {
@@ -22173,7 +22079,7 @@
     "jobs.html": {
       "settings": {
         "title": "Jobs",
-        "order": "21",
+        "order": "20",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Jobs",
         "socialSharingUrl": ""
       },
@@ -23206,7 +23112,7 @@
     "conditions-generales_28092019.html": {
       "settings": {
         "title": "Condition générales 28/09/2019",
-        "order": "30",
+        "order": "29",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Conditions Générales",
         "header_custom": "<META NAME=\"robots\" CONTENT=\"noindex,nofollow\">"
       },
@@ -24257,7 +24163,7 @@
     "politique-de-vie-privée_28092019.html": {
       "settings": {
         "title": "Politique de Vie Privée v. 28/09/2019",
-        "order": "32",
+        "order": "31",
         "meta_descr": "",
         "header_custom": "<META NAME=\"robots\" CONTENT=\"noindex,nofollow\">"
       },
@@ -25308,7 +25214,7 @@
     "contact-free.html": {
       "settings": {
         "title": "Contact free",
-        "order": "28",
+        "order": "27",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Contact"
       },
       "components": [
@@ -27461,7 +27367,7 @@
     "communicationstechniques.html": {
       "settings": {
         "title": "Communications techniques",
-        "order": "26",
+        "order": "25",
         "meta_descr": "Les infos techniques centralisées"
       },
       "components": [
@@ -28657,7 +28563,7 @@
     "kinés.html": {
       "settings": {
         "title": "Kinés",
-        "order": "27",
+        "order": "26",
         "meta_descr": "Les infos techniques centralisées"
       },
       "components": [
@@ -29762,7 +29668,7 @@
     "pour-medecins-specialistes.html": {
       "settings": {
         "title": "Pour les médecins spécialistes",
-        "order": "6",
+        "order": "5",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour Médecins Spécialistes"
       },
       "components": [
@@ -31119,7 +31025,7 @@
     "nos formations.html": {
       "settings": {
         "title": "Nos Formations",
-        "order": "24",
+        "order": "23",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Nos Formations"
       },
       "components": [
@@ -32173,7 +32079,7 @@
     "cardiologues.html": {
       "settings": {
         "title": "Cardiologues",
-        "order": "7",
+        "order": "6",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les cardiologues"
       },
       "components": [
@@ -33660,7 +33566,7 @@
     "bubblelink.html": {
       "settings": {
         "title": "Bubblelink",
-        "order": "19",
+        "order": "18",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - À Propos de Medispring"
       },
       "components": [
@@ -34740,7 +34646,7 @@
     "page35.html": {
       "settings": {
         "title": "Orthopédistes",
-        "order": "12",
+        "order": "11",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les cardiologues"
       },
       "components": [
@@ -36103,7 +36009,7 @@
     "ORL.html": {
       "settings": {
         "title": "ORL",
-        "order": "9",
+        "order": "8",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les ORLs"
       },
       "components": [
@@ -37590,7 +37496,7 @@
     "dermatologues.html": {
       "settings": {
         "title": "Dermatologues",
-        "order": "8",
+        "order": "7",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les dermatologues"
       },
       "components": [
@@ -39077,7 +38983,7 @@
     "pediatres.html": {
       "settings": {
         "title": "Pédiatres",
-        "order": "10",
+        "order": "9",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les pédiatres"
       },
       "components": [
@@ -40440,7 +40346,7 @@
     "psychiatres.html": {
       "settings": {
         "title": "Psychiatres",
-        "order": "11",
+        "order": "10",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les psychiatres"
       },
       "components": [
@@ -41803,7 +41709,7 @@
     "autres-specialites.html": {
       "settings": {
         "title": "Autres spécialités",
-        "order": "13",
+        "order": "12",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour les autres spécialités"
       },
       "components": [
@@ -43166,7 +43072,7 @@
     "p.html": {
       "settings": {
         "title": "Pour les Médecins Spécialistes - ancienne version",
-        "order": "34",
+        "order": "33",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour Médecins Spécialistes"
       },
       "components": [
@@ -45568,7 +45474,7 @@
     "page32.html": {
       "settings": {
         "title": "Pour médecins généralistes ancien",
-        "order": "4",
+        "order": "35",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour Médecins Généralistes"
       },
       "components": [
@@ -47105,7 +47011,7 @@
     "pour-medecins-generalistes.html": {
       "settings": {
         "title": "Pour Médecins Généralistes",
-        "order": "5",
+        "order": "4",
         "meta_descr": "Medispring, le Dossier Médical pour les Soignants, par les Soignants - Pour Médecins Généralistes"
       },
       "components": [
