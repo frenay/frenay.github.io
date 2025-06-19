@@ -21,9 +21,6 @@
 		<loc>https://www.medispring.be/documents-officiels.html</loc>
 	</url>
 	<url>
-		<loc>https://www.medispring.be/pour-medecins-generalistes.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medispring.be/conditions-generales.html</loc>
 	</url>
 	<url>
@@ -103,5 +100,11 @@
 	</url>
 	<url>
 		<loc>https://www.medispring.be/p.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/page32.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/pour-medecins-generalistes.html</loc>
 	</url>
 </urlset>
