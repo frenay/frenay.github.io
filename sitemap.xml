@@ -60,9 +60,6 @@
 		<loc>https://www.medispring.be/contact-free.html</loc>
 	</url>
 	<url>
-		<loc>https://www.medispring.be/free.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medispring.be/communicationstechniques.html</loc>
 	</url>
 	<url>
@@ -106,5 +103,11 @@
 	</url>
 	<url>
 		<loc>https://www.medispring.be/pour-medecins-generalistes.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/page36.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/free.html</loc>
 	</url>
 </urlset>
