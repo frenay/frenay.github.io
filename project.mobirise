@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 1131,
+    "uniqCompNum": 1132,
     "versionPublish": "6.0.6",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -26849,13 +26849,19 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#4a2545"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#4a2545"
+            }
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>10-07-2025\n                </b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">UPDATE :&nbsp;<br><br>Nous rencontrons actuellement un souci de connexion généralisé depuis l'application en ligne qui peut également impacter le fonctionnement optimal de votre version en locale lorsque les réplications se déclenchent. Nous nous excusons du désagrément causé et mettons tout en œuvre pour une résolution efficace et rapide.</p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content5-ve",
-          "_cid": "uQxBvjOiKY",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b></b><div><b>10-07-2025</b></div></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                    UPDATE 12h15 : l'authentification est rétablie, les réplications sont en cours de résolution.<br><br>Nous rencontrons actuellement un souci de connexion généralisé depuis l'application en ligne qui peut également impacter le fonctionnement optimal de votre version en locale lorsque les réplications se déclenchent. Nous nous excusons du désagrément causé et mettons tout en œuvre pour une résolution efficace et rapide.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uE5J7MelnF",
+          "_anchor": "content5-n6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -26877,8 +26883,8 @@
           "_name": "content5",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b></b><div><b>28-02-2025</b></div></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                    ATTENTION : les anciens utilisateurs de iCure ne doivent plus ouvrir leur logiciel iCURE au risque de corrompre leurs données. <br><br>Chers utilisateurs,\n<br>\n<br>La version 3.2 de Medispring déployée récemment s’avère incompatible avec votre ancien logiciel Icure. Cela signifie que si vous avez ouvert votre logiciel Icure depuis la mise en place de la V3.2, les données qui s’y trouvent ont potentiellement été corrompues.\n<br>\n<br>Que faire ? Ne lancez EN AUCUN CAS le logiciel iCure car vous vous exposez à un risque de perte de données. Si vous avez absolument besoin de consulter vos formulaires spécifiques, veuillez contacter le support Medispring.\n<br>\n<br>Support Medispring : Tél : 078 077 050 Mail : support@medispring.be\n<br>\n<br>Nous vous présentons nos excuses pour ces désagréments temporaires. Nous travaillons avec iCure pour solutionner ce problème au plus vite.\n<br>\n<br>L’équipe Medispring<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "uE5J7MelnF",
-          "_anchor": "content5-n6",
+          "_anchor": "content5-vf",
+          "_cid": "uQxE4siDxc",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
