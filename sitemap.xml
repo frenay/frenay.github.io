@@ -63,9 +63,6 @@
 		<loc>https://www.medispring.be/communicationstechniques.html</loc>
 	</url>
 	<url>
-		<loc>https://www.medispring.be/kinés.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medispring.be/pour-medecins-specialistes.html</loc>
 	</url>
 	<url>
@@ -121,5 +118,8 @@
 	</url>
 	<url>
 		<loc>https://www.medispring.be/page40.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medispring.be/kines.html</loc>
 	</url>
 </urlset>
